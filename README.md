@@ -32,6 +32,10 @@ If you make any changes and you want to test add echo before FART, call jren, FN
  - Alexey 'Cluster' Avdyukhin - [Github Link](https://github.com/ClusterM)
  - DanTheMan827 - [Github Link](https://github.com/DanTheMan827)
  - Kyland K AKA KMFDManic - [Github Link](https://github.com/KMFDManic) - [Youtube link](https://www.youtube.com/channel/UCoRrbw6gyi4KRPGUNnVVjMQ) (Tutorial king!)
+ - Lionello Lunesu - Find And Replace Text command line utility
+ - Dave Benham - JREN.BAT - Rename files/folders using regular expressions
+ - ENTech Solutons - FNR Find and Replace
+ 
 
 #### Final Note:
 I made these for personal use and they served me a purpose. I just put these up here if people want to adapt them, use them etc. It is what it is. Good luck!
