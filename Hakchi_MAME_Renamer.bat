@@ -46,8 +46,8 @@ pause
 for /f "tokens=1,2 delims=," %%G in (mame_list.array) do (
 	
 	echo ----Processing: %%G
-	FNR --cl --dir "%cd%" --fileMask "*%ext%" --excludeFileMask "*.dll, *.exe" --includeSubDirectories --skipBinaryFileDetection --find "Name=%%G" --replace "Name=%%H"
-	FNR --cl --dir "%cd%" --fileMask "*%ext%" --excludeFileMask "*.dll, *.exe" --includeSubDirectories --skipBinaryFileDetection --find "SortRawTitle=%%G" --replace "SortRawTitle=%%H"
+	FNR --cl --dir "%cd%" --fileMask "*%ext%" --excludeFileMask "*.dll, *.exe" --includeSubDirectories --skipBinaryFileDetection --find "Name=%%G" --replace "Name=MAME: %%H"
+	FNR --cl --dir "%cd%" --fileMask "*%ext%" --excludeFileMask "*.dll, *.exe" --includeSubDirectories --skipBinaryFileDetection --find "SortRawTitle=%%G" --replace "SortRawTitle=MAME: %%H"
 )
 
 echo MAME game name rename ran successfully! Hopefully the majority of your MAME roms will be renamed within hakchi.
